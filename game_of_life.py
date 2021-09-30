@@ -45,3 +45,12 @@ def Game(row, col, lis):
         newList.append(rows)
     return newList
 
+
+def display(lis,row,cols):
+    for x in range(0,row):
+        for y in range(0, cols):
+            print(lis[x][y], end="\t")
+        print("\n")
+
+
+    
